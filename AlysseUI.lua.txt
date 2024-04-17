@@ -512,7 +512,7 @@ execbox.ClearTextOnFocus = false
 execbox.Font = Enum.Font.Gotham
 execbox.MultiLine = true
 execbox.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
-execbox.PlaceholderText = "-- Thanks for using Alysse!"
+execbox.PlaceholderText = "~~Thanks for using Void Hub!U can Execute Scripts in here!"
 execbox.Text = ""
 execbox.TextColor3 = Color3.fromRGB(145, 145, 145)
 execbox.TextSize = 14.000
@@ -697,7 +697,7 @@ text.BorderSizePixel = 0
 text.Position = UDim2.new(0.0169076975, 0, 0.217339903, 0)
 text.Size = UDim2.new(0, 96, 0, 21)
 text.Font = Enum.Font.Gotham
-text.Text = "Enable ESP"
+text.Text = "Enable ESPsj"
 text.TextColor3 = Color3.fromRGB(145, 145, 145)
 text.TextSize = 16.000
 text.TextWrapped = true
@@ -748,7 +748,7 @@ text_2.BorderSizePixel = 0
 text_2.Position = UDim2.new(0.0169076975, 0, 0.217340082, 0)
 text_2.Size = UDim2.new(0, 62, 0, 21)
 text_2.Font = Enum.Font.Gotham
-text_2.Text = "Tracers"
+text_2.Text = "Tracers-09"
 text_2.TextColor3 = Color3.fromRGB(145, 145, 145)
 text_2.TextSize = 16.000
 text_2.TextWrapped = true
@@ -964,7 +964,7 @@ searchbox.Position = UDim2.new(0.0172413792, 0, 0.0321543403, 0)
 searchbox.Size = UDim2.new(0, 372, 0, 40)
 searchbox.Font = Enum.Font.Gotham
 searchbox.PlaceholderColor3 = Color3.fromRGB(145, 145, 145)
-searchbox.PlaceholderText = "Powered by Scriptblox.com"
+searchbox.PlaceholderText = "Powered by Scriptblox.com-Patched Coming soon"
 searchbox.Text = ""
 searchbox.TextColor3 = Color3.fromRGB(145, 145, 145)
 searchbox.TextSize = 14.000
@@ -1036,7 +1036,7 @@ UIAspectRatioConstraint_13.Parent = open
 local function QIWXMR_fake_script() -- main.LocalScript 
 	local script = Instance.new('LocalScript', main)
 
-	print("Welcome, "..game.Players.LocalPlayer.Name.. " to Alysse!.")
+	print("Welcome, "..game.Players.LocalPlayer.Name.. " to Void Hub!.Thanks For using My Hub!.")
 	
 	local mainframe = script.Parent
 	local sidebar = mainframe.sidebar
@@ -1267,7 +1267,7 @@ mainframe.Draggable = true
 	click(searchbutton, function()
 		if issearching then
 			game.StarterGui:SetCore("SendNotification", {
-				Title = "Alysse",
+				Title = "MrVoid",
 				Text = "A search is currently in progress. Please wait for the Search Icon to return back to normal which indicates that a search has been finished.",
 				Duration = 1,
 			})
@@ -1305,7 +1305,7 @@ mainframe.Draggable = true
 					local gamedata = decodedgames.result.scripts
 	
 					if next(gamedata) == nil then
-						print("Alysse has found no results.")
+						print("We are found no results.")
 					else
 						for i, v in pairs(gamedata) do
 							local canvassizelol = cloudtab.section.CanvasSize
