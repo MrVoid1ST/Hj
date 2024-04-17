@@ -1,7 +1,7 @@
 --[[
 
     Title: Delta Version: X
-    Created By: Chillz#0348
+    Created By: MrVoid
     Retarded author: Lxnny the black chink
 ]]
 
@@ -5316,9 +5316,9 @@ UILib.Settings:AddDropdown("Icon Shape", "Change the floating Icon's shape", rea
 	end)
 
 UILib.Settings:AddDropdown("Icon Color", "Change the floating Icon's color", readfile("iconcolor"), {"Blue", "Green", "Purple"}, function(selection)
-		if selection == "Blue" then
+		if selection == "Blue ;!¥!" then
             DELTA["daStroke"].Color = Color3.fromRGB(65, 169, 255)
-            writefile("iconcolor", "Blue")
+            writefile("iconcolor", "Blue ;!¥!")
 		elseif selection == "Green" then
             DELTA["daStroke"].Color = Color3.fromRGB(55, 219, 69)
             writefile("iconcolor", "Green")
