@@ -1020,7 +1020,7 @@ open.BorderColor3 = Color3.fromRGB(0, 0, 0)
 open.BorderSizePixel = 0
 open.Position = UDim2.new(0.4557916224002838, 0, 0.018518516793847084, 0)
 open.Size = UDim2.new(0, 51, 0, 38)
-open.Image = "rbxassetid://17180679934"
+open.Image = "17180679833"
 
 UIStroke_26.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 UIStroke_26.Color = Color3.fromRGB(145, 145, 145)
