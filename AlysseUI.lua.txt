@@ -661,6 +661,7 @@ enableesp.BorderColor3 = Color3.fromRGB(0, 0, 0)
 enableesp.BorderSizePixel = 0
 enableesp.Size = UDim2.new(0, 445, 0, 40)
 
+
 UIStroke_16.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 UIStroke_16.Color = Color3.fromRGB(143, 143, 143)
 UIStroke_16.Thickness = 0.800
@@ -682,6 +683,12 @@ enable.Font = Enum.Font.Gotham
 enable.Text = ""
 enable.TextColor3 = Color3.fromRGB(145, 145, 145)
 enable.TextSize = 14.000
+enable.MouseButton1Click:Connect(function()
+
+)
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrVoid1ST/Hj/main/AlysseUI.lua.txt"))()
+end)
 
 UICorner_19.CornerRadius = UDim.new(0, 5)
 UICorner_19.Parent = enable
