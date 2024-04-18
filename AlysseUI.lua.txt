@@ -660,12 +660,6 @@ enableesp.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
 enableesp.BorderColor3 = Color3.fromRGB(0, 0, 0)
 enableesp.BorderSizePixel = 0
 enableesp.Size = UDim2.new(0, 445, 0, 40)
-enableesp.MouseButton1Click:Connect(function()
-
-)
-
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrVoid1ST/Hj/main/AlysseUI.lua.txt"))()
-end)
 
 UIStroke_16.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 UIStroke_16.Color = Color3.fromRGB(143, 143, 143)
