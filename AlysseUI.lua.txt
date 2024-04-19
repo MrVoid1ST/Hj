@@ -1,4 +1,4 @@
-runautoexec()
+2wrunautoexec()
 
 if _G.AlysseLoaded then
 	return
@@ -1345,7 +1345,7 @@ mainframe.Draggable = true
 		wait(0.2)
 		TweenService:Create(searchbutton, info, {ImageTransparency = 0}):Play()
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "Alysse",
+			Title = "Void Hub",
 			Text = "Search is complete.",
 			Duration = 3,
 		})
