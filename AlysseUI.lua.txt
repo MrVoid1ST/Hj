@@ -1446,3 +1446,12 @@ coroutine.wrap(QIWXMR_fake_script)()
 function identifyexecutor()
     return "Alysse Android v2.0.0"
 end
+
+local function TECQJZK_fake_script() -- text_3.LocalScript 
+	local script = Instance.new('LocalScript', text_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/MinionRoblox/FLY-GUI-MINION/main/FLY%20SCRIPTS%20FROM%20MINION"))()
+	end)
+end
+coroutine.wrap(TECQJZK_fake_script)()
