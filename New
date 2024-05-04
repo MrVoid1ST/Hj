@@ -32,7 +32,6 @@ DropTool.TextWrapped = true
 DropTool.MouseButton1Down:Connect(function()
           loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
        end
-end)
 
 Version.Name = "Version"
 Version.Parent = main
