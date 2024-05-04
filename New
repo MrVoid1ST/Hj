@@ -30,9 +30,8 @@ DropTool.TextScaled = true
 DropTool.TextSize = 14.000
 DropTool.TextWrapped = true
 DropTool.MouseButton1Down:Connect(function()
-          Plr:GetMouse().KeyDown:Connect(function(K) 
- K == "a" 
-end
+          loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+       end
 end)
 
 Version.Name = "Version"
